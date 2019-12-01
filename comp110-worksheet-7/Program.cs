@@ -39,8 +39,8 @@ namespace comp110_worksheet_7
 			{
 				Console.WriteLine("GetDepth is not implemented");
 			}
-
-			try
+            
+ 			try
 			{
 				var smallest = DirectoryUtils.GetSmallestFile(c_baseDirectory);
 				Console.WriteLine("Smallest file:\n  {0}\n  ({1} bytes)", smallest.Item1, smallest.Item2);
